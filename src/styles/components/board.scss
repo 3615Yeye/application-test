@@ -1,0 +1,12 @@
+.board {
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  width: min(600px, 80vw);
+
+  .mark {
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    border: solid 1px black;
+  }
+}
